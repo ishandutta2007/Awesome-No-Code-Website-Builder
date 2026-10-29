@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-No-Code-Website-Builder/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-No-Code-Website-Builder?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-No-Code-Website-Builder/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-No-Code-Website-Builder?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-No-Code-Website-Builder/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-No-Code-Website-Builder?style=social&color=white" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-No-Code-Website-Builder/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License" /></a>
@@ -26,7 +26,7 @@
 - [🌟 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [🏢 SaaS & Hosted Website Builders](#-saas--hosted-website-builders)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [⭐ Open-Source Visual Builders (Sorted by GitHub Stars)](#-open-source-visual-builders-sorted-by-github-stars)
+  - [⭐ Open-Source Visual Builders (Sorted by GitHub_Stars)](#-open-source-visual-builders-sorted-by-github-stars)
   - [🧩 Additional Modular Page Builders & Plugins](#-additional-modular-page-builders--plugins)
 - [🎯 Selection Guide & Architecture Tradeoffs](#-selection-guide--architecture-tradeoffs)
 - [🤝 How to Contribute](#-how-to-contribute)
@@ -68,9 +68,9 @@ The table below lists leading commercial no-code and visual website building pla
 
 Explore the best open-source visual page builders, visual CMS frameworks, and self-hostable Webflow/Framer alternatives. Each repository badge links directly to its live stargazers page.
 
-### ⭐ Open-Source Visual Builders (Sorted by GitHub Stars)
+### ⭐ Open-Source Visual Builders (Sorted by GitHub_Stars)
 
-| Repository 📦 | GitHub Stars 🌟 | License 📜 | Architecture & Stack 🛠️ | Description & Capabilities 📝 |
+| Repository 📦 | GitHub_Stars 🌟 | License 📜 | Architecture & Stack 🛠️ | Description & Capabilities 📝 |
 |:---|:---:|:---:|:---|:---|
 | **[GrapesJS](https://github.com/GrapesJS/grapesjs)** | [![Stars](https://img.shields.io/github/stars/GrapesJS/grapesjs?style=social&color=white)](https://github.com/GrapesJS/grapesjs/stargazers) | **BSD-3-Clause** | Vanilla JS / Multi-framework | The industry-standard extensible open-source HTML/CSS visual page builder framework. Powers thousands of internal CMS platforms, email design tools, and visual site creators with zero external dependencies. |
 | **[TinaCMS](https://github.com/tinacms/tinacms)** | [![Stars](https://img.shields.io/github/stars/tinacms/tinacms?style=social&color=white)](https://github.com/tinacms/tinacms/stargazers) | **Apache-2.0** | Next.js / React / GraphQL / Git | Git-backed headless visual CMS offering real-time contextual page editing directly on your live frontend components with markdown/MDX and JSON data persistence. |
