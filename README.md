@@ -9,11 +9,14 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-No-Code-Website-Builder/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-No-Code-Website-Builder?style=social&color=white" alt="GitHub Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-No-Code-Website-Builder/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-No-Code-Website-Builder?style=social&color=white" alt="GitHub Forks" /></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-No-Code-Website-Builder/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License" /></a>
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-emerald" alt="Maintained" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -27,6 +30,8 @@
   - [🧩 Additional Modular Page Builders & Plugins](#-additional-modular-page-builders--plugins)
 - [🎯 Selection Guide & Architecture Tradeoffs](#-selection-guide--architecture-tradeoffs)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 - [📄 Disclaimer & Security Considerations](#-disclaimer--security-considerations)
 
 ---
@@ -137,6 +142,24 @@ We welcome community contributions, tool submissions, and feature corrections!
    - For open-source projects, specify the license and verify that it provides visual/drag-and-drop functionality.
 4. **Run Format Check & Commit** (`git commit -m "Add <Tool-Name> to No-Code Website Builder ecosystem"`)
 5. **Open a Pull Request** 🚀
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using this curated ecosystem! Maintaining this list, analyzing pricing matrices, and tracking open-source visual builders takes dedication and continuous research. 
+
+If this resource has helped you, your startup, or your team:
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork and contribute** updates or new emerging visual engines.
+- 📢 **Share it** with fellow designers, developers, and makers on social media or Discord communities.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance directly on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-No-Code-Website-Builder&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-No-Code-Website-Builder&type=date&legend=top-left)
 
 ---
 
