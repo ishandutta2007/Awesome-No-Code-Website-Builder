@@ -1,225 +1,153 @@
-# Awesome-No-Code-Website-Builder
-
-## Top No-Code Website Builder Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Visual Page Editing, Drag-and-Drop Design & Self-Hosted Site Builders*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **No-Code Website Builders**. These tools enable designers, marketers, and founders to create professional websites through visual interfaces—dragging blocks, styling elements, and publishing without writing code.
-
-
-
-**Examples** include Shopify Online Store Editor, Webflow, Squarespace, Wix, Framer, WordPress Gutenberg, Elementor, PageFly, Shogun, and GemPages (the category leaders).
-
-
-
-**Open-source emphasis**: No-Code Website Builder is a domain where open-source tooling is **surprisingly mature for static site generation and visual editing**. **Silex** is the strongest active project—a non-profit-backed Webflow alternative with GrapesJS-based editing, clean HTML/CSS export, and self-hosting via Docker or Node.js . **OpenPage** offers a JSON-first visual builder with AI generation and MIT licensing, explicitly designed as a self-hosted Framer/Lovable alternative . **Webstudio** provides an advanced visual development platform with AGPL licensing and headless CMS connectivity . **Instatic** delivers a full CMS with visual editing and static output, built by the team behind Motion.page . For WordPress, **Marfilo** and **PixeBuilder** offer lightweight GPL-licensed page builders . The gap remains in enterprise-grade ecommerce integration (Shopify-specific builders) and AI-native generation at the polish level of Framer.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Shopify Online Store Editor](https://www.shopify.com/)**  
-
-  Shopify's native theme editor for customizing storefronts with sections, blocks, and theme settings; limited to Shopify-hosted stores but deeply integrated with commerce features.
-
-
-
-- **[Webflow](https://webflow.com/)**  
-
-  Visual development platform with a designer that generates clean HTML/CSS/JS; supports CMS, ecommerce, and hosting; the industry benchmark for design fidelity in a no-code builder.
-
-
-
-- **[Squarespace](https://www.squarespace.com/)**  
-
-  All-in-one website builder with polished templates and drag-and-drop editing; strong for portfolios, blogs, and small business sites.
-
-
-
-- **[Wix](https://www.wix.com/)**  
-
-  Popular website builder with Wix Editor and Wix Studio for agencies; extensive template library and app market.
-
-
-
-- **[Framer](https://www.framer.com/)**  
-
-  Design-first website builder with AI-powered generation, responsive breakpoints, and CMS; popular for marketing sites and portfolios.
-
-
-
-- **[WordPress Gutenberg](https://wordpress.org/gutenberg/)**  
-
-  WordPress's native block editor for content creation; extensible via block plugins and full-site editing in modern themes.
-
-
-
-- **[Elementor](https://elementor.com/)**  
-
-  Leading WordPress page builder with drag-and-drop editing, template library, and theme builder; free version plus Pro tiers.
-
-
-
-- **[PageFly](https://pagefly.io/)**  
-
-  Shopify page builder app for creating landing pages, product pages, and blog layouts with drag-and-drop editing.
-
-
-
-- **[Shogun](https://getshogun.com/)**  
-
-  Page builder for ecommerce (Shopify, BigCommerce) with visual editing and A/B testing; now part of Yotpo.
-
-
-
-- **[GemPages](https://gempages.net/)**  
-
-  Shopify page builder with conversion-focused templates, drag-and-drop editor, and AI-assisted design.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Visual Site Builders (Self-Hosted)
-
-
-
-- **[Silex](https://github.com/silexlabs/Silex)**  
-
-  The most established open-source **Webflow alternative** (AGPL-3.0, ~1,844 GitHub stars, active since 2009); GrapesJS-based drag-and-drop editor with HTML/CSS/JS editors, static HTML export, CMS integration via GraphQL (WordPress, Strapi, Squidex), 11ty compatibility, and self-hosting via Docker or Node.js . **Non-profit backed** by Silex Labs—no subscriptions, no tracking, no premium tier; all features included . Desktop app (alpha) adds offline editing with built-in MCP server for AI-assisted design .
-
-
-
-- **[OpenPage](https://github.com/buildingopen/openpage)**  
-
-  Open-source website builder with visual drag-and-drop editor, AI site generation (Gemini API), and **JSON-first architecture** (MIT) . Ships with 19 block types and 42 layout variants, 10 theme presets, and standalone HTML export. **Explicitly positioned as a self-hosted alternative to Framer, Lovable, and v0**, with clean Git diffs for version control and a structured API for agent-editable sites . React 19 + TypeScript + Tailwind stack; deploy to Vercel or self-host.
-
-
-
-- **[Webstudio](https://github.com/webstudio-is/webstudio)**  
-
-  Open-source visual development platform positioned as a **Webflow alternative** (AGPL-3.0 for core); connects to any headless CMS, supports all CSS properties, and can be hosted anywhere . Core is fully open-source; optional animation SDK package is proprietary under a separate EULA .
-
-
-
-- **[Instatic](https://github.com/CoreBunch/Instatic)**  
-
-  Open-source **agentic self-hosted visual CMS** positioned as an alternative to Webflow, Framer, and WordPress . Features visual editing, static page generation (baked to disk on publish), a plugin system with QuickJS-WASM sandboxing, audit logs, and form data ownership. Built by the team behind Motion.page and Core Framework; requires Bun and SQLite (default) or Postgres .
-
-
-
-### WordPress Page Builders
-
-
-
-- **[Marfilo](https://alternativeto.net/software/marfilo/about/)**  
-
-  Free visual drag-and-drop page builder for WordPress (GPL-2.0); publishes **plain HTML and a single stylesheet**, with 95 modules and no Pro tier . Lightweight and WYSIWYG-focused.
-
-
-
-- **[PixeBuilder](https://wp-packages.org/packages/wp-plugin/pixebuilder)**  
-
-  Free drag-and-drop page builder plugin for WordPress (v1.1.2); click-to-edit in place or side panel; clean pages that load only what they use .
-
-
-
-### Niche & Emerging
-
-
-
-- **[Nitropage](https://www.npmjs.com/package/create-nitropage)**  
-
-  Free, open-source, self-hostable alternative to Squarespace and Wix; building blocks written in SolidJS with HMR support . Early-stage (v0.67.2).
-
-
-
-- **[Autonnel](https://buildhop.io/discover/autonnel)**  
-
-  Open-source AI-native funnel builder for ecommerce (Apache-2.0); generates landing, checkout, and upsell pages from prompts; connects to Shopify, WooCommerce, or Picocart . **Very early-stage** (published October 2026).
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Andami** — MIT-licensed visual page builder framework for Next.js with Sanity CMS backend; optimized for portfolio/brand sites; single-maintainer studio tool (not enterprise-supported) .
-
-- **Easyblocks** — Open-source page builder framework with visual editor and backend flexibility; requires integration work rather than drop-in deployment .
-
-- **No open-source Shopify page builder exists** — The Shopify App Store's page builder category (PageFly, Shogun, GemPages) is entirely commercial; no open-source equivalent replicates their deep Shopify integration.
-
-
-
-**Frameworks for building custom systems**: For **general-purpose site building**, Silex provides the most mature, non-profit-backed foundation with static export and CMS integration . For **AI-assisted generation**, OpenPage offers JSON-first architecture with Gemini integration . For **WordPress**, Marfilo or PixeBuilder provide lightweight GPL alternatives . For **Next.js developers**, Andami or Instatic provide code-first foundations . No open-source builder matches Webflow's design fidelity or Shopify's ecommerce integration out of the box.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- No-code website builders handling user content and published sites must consider security (XSS prevention in visual editors, plugin sandboxing), accessibility (WCAG compliance for generated output), and hosting reliability.
-
-- **Open-source no-code builders are mature for static sites and WordPress**—Silex and OpenPage provide production-ready visual editing with clean export, and Marfilo/PixeBuilder serve WordPress users. However, **Shopify-specific page builders are entirely commercial**, and no open-source project matches Framer's AI generation polish or Webflow's design fidelity. Organizations requiring ecommerce-optimized builders should evaluate commercial apps.
-
-- Verify license terms for commercial use; Silex uses AGPL-3.0 , OpenPage uses MIT , Webstudio core uses AGPL-3.0 with proprietary animation SDK , and Marfilo/PixeBuilder use GPL .
-
-
+<div align="center">
+  <img src="./assets/banner.svg" alt="Awesome No-Code Website Builder Banner" width="100%" />
+</div>
+
+<h1 align="center">Awesome No-Code Website Builder 🚀</h1>
+
+<p align="center">
+  <strong>A curated index of top-tier SaaS platforms, open-source page builders, visual canvas frameworks, and self-hosted website builder software.</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-No-Code-Website-Builder/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-No-Code-Website-Builder?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-No-Code-Website-Builder/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-No-Code-Website-Builder?style=social&color=white" alt="GitHub Forks" /></a>
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-No-Code-Website-Builder/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License" /></a>
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-emerald" alt="Maintained" />
+</p>
 
 ---
 
+## 📌 Table of Contents
 
+- [🌟 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Website Builders](#-saas--hosted-website-builders)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Open-Source Visual Builders (Sorted by GitHub Stars)](#-open-source-visual-builders-sorted-by-github-stars)
+  - [🧩 Additional Modular Page Builders & Plugins](#-additional-modular-page-builders--plugins)
+- [🎯 Selection Guide & Architecture Tradeoffs](#-selection-guide--architecture-tradeoffs)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📄 Disclaimer & Security Considerations](#-disclaimer--security-considerations)
 
-**Made for web designers, marketers, founders, and self-hosting enthusiasts.**  
+---
 
-Let's make no-code website building more open, but with clear eyes about the ecommerce integration gap that remains.
+## 🌟 Sector Overview & Market Dynamics
+
+The global website builder software market size is valued at approximately **$2.6 billion to $3.2 billion** and is projected to expand past **$5.8 billion by 2030** at a compound annual growth rate (CAGR) of **9.5%–10.8%**. 
+
+Market dynamics demonstrate a **moderately consolidated tier at the top, surrounded by high fragmentation at the niche periphery**:
+- **Mass-Market & E-Commerce Concentration:** Mega-cap giants (Shopify, Wix, Squarespace/Permira, and WordPress/Automattic) control over 75% of commercial and SMB web creations, creating deep moat advantages through integrated merchant checkouts, hosting infrastructure, and extensive third-party app ecosystems.
+- **Visual Design & Agentic Disruption:** A fast-growing challenger segment led by Webflow, Framer, and visual headless engines captures digital agencies, fast-growth startups, and SaaS marketing teams. Concurrently, the emergence of AI code generators and open-source headless page builders (such as GrapesJS, Puck, and TinaCMS) is unbundling visual authoring from proprietary hosting lock-in.
+
+---
+
+## 🏢 SaaS & Hosted Website Builders
+
+The table below lists leading commercial no-code and visual website building platforms, sorted in descending order by company scale (market capitalization, enterprise valuation, or annual recurring revenue).
+
+| Platform 🌐 | Scale / Valuation / Revenue 📊 | Starting Tier Pricing 🏷️ | Free Tier Limits / Trial Specifications 🎁 | Core Strengths 💡 |
+|:---|:---|:---|:---|:---|
+| **[Shopify Online Store Editor](https://www.shopify.com/)** | **~$110B+ Market Cap** (NYSE: SHOP; >$7.0B Annual Revenue) | **$39/month** (Basic plan, billed monthly; or $29/mo annually) | **3-day free trial**; no credit card required, followed by promotional $1/month for the first month. Full access to visual theme editor and store configuration. | Native section/block storefront builder deeply integrated into enterprise checkout, omnichannel inventory, and payments. |
+| **[Squarespace](https://www.squarespace.com/)** | **~$6.9B Acquisition** (Taken private by Permira; >$1.0B ARR) | **$25/month** (Personal plan, billed monthly; or $16/mo annually) | **14-day free trial** with full access to Fluid Engine drag-and-drop builder, designer templates, and custom styling; publishing to live custom domain requires paid upgrade. | Award-winning design aesthetics, unified blogging, scheduling, and portfolio templates powered by the Fluid Engine editor. |
+| **[Wix](https://www.wix.com/)** | **~$9.0B–$10.5B Market Cap** (NASDAQ: WIX; >$1.5B Annual Revenue) | **$17/month** (Light plan, billed monthly) | **Free Forever plan available**: Includes Wix-branded subdomain (`username.wixsite.com`), up to 500 MB cloud storage, 500 MB bandwidth, Wix ad banner, and full access to drag-and-drop editor. | Unconstrained free-form visual layout, extensive Wix App Market extensions, and agency-grade Wix Studio workspace. |
+| **[Webflow](https://webflow.com/)** | **$4.0B Valuation** (Series C; ~$200M ARR) | **$18/month** (Basic plan, billed monthly; or $14/mo annually) | **Free Starter plan forever**: Includes 2 unhosted staging pages, Webflow staging subdomain (`.webflow.io`), 50 CMS database items, 1 GB asset bandwidth, and full visual CSS canvas. | Clean semantic HTML5/CSS/JavaScript generation, programmatic CMS collections, client-first styling systems, and micro-interactions. |
+| **[Framer](https://www.framer.com/)** | **~$1.0B–$1.5B Valuation** (Estimated unicorn status; ~$40M+ ARR) | **$10/month** (Mini plan, billed monthly; or $5/mo annually) | **Free Forever plan**: Allows building and publishing unlimited draft pages on a Framer subdomain (`.framer.media`), supporting up to 1,000 visitors/month, 5 MB asset hosting, with a subtle Framer badge. | Figma-native workflow, motion design animations, real-time AI wireframe generation, and lightning-fast edge hosting. |
+| **[Elementor](https://elementor.com/)** | **~$600M–$800M Valuation** (Backing 8M+ active sites; estimated >$80M ARR) | **$59/year** (Essential Plan for 1 site; or ~$9.99/mo for Elementor Hosted) | **Free Core Plugin forever**: Open GPL core installed on any WordPress instance with 40+ basic visual widgets, 30+ templates, and live WYSIWYG front-end editing (excludes Pro theme builder & WooCommerce widgets). | The most dominant visual drag-and-drop ecosystem for WordPress, offering thousands of community extensions and themes. |
+| **[Shogun](https://getshogun.com/)** | **~$200M–$300M Valuation** (Acquired by Yotpo / VC backed; >$20M ARR) | **$39/month** (Build plan, billed monthly) | **10-day free trial**: Includes up to 25 published pages, visual drag-and-drop page creation, SEO controls, and Shopify/BigCommerce theme sync. | High-converting landing page creation, native ecommerce element modules, and integrated multi-variant A/B testing. |
+| **[PageFly](https://pagefly.io/)** | **~$40M–$60M Valuation** (Bootstrap leader; 200k+ active Shopify merchants) | **$24/month** (Pay-as-you-go starting at 5 slots, billed monthly) | **Free Forever plan**: Grants 1 published page/section slot with full, unrestricted access to all 120+ conversion elements, page types, and 24/7 support. | Dedicated Shopify ecommerce layout builder with granular mobile/tablet responsive customization and zero-bloat code loading. |
+| **[GemPages](https://gempages.net/)** | **~$25M–$45M Valuation** (Estimated; 100k+ active online stores) | **$29/month** (Optimize plan, billed monthly; or $23/mo annually) | **Free Forever plan**: Allows creating and publishing 1 live page/section with full drag-and-drop editor access, basic analytics, and AI Image-to-Layout generation credits. | AI-assisted layout creation from screenshots/URLs, high-converting checkout funnels, and sales-boosting widget libraries. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Explore the best open-source visual page builders, visual CMS frameworks, and self-hostable Webflow/Framer alternatives. Each repository badge links directly to its live stargazers page.
+
+### ⭐ Open-Source Visual Builders (Sorted by GitHub Stars)
+
+| Repository 📦 | GitHub Stars 🌟 | License 📜 | Architecture & Stack 🛠️ | Description & Capabilities 📝 |
+|:---|:---:|:---:|:---|:---|
+| **[GrapesJS](https://github.com/GrapesJS/grapesjs)** | [![Stars](https://img.shields.io/github/stars/GrapesJS/grapesjs?style=social&color=white)](https://github.com/GrapesJS/grapesjs/stargazers) | **BSD-3-Clause** | Vanilla JS / Multi-framework | The industry-standard extensible open-source HTML/CSS visual page builder framework. Powers thousands of internal CMS platforms, email design tools, and visual site creators with zero external dependencies. |
+| **[TinaCMS](https://github.com/tinacms/tinacms)** | [![Stars](https://img.shields.io/github/stars/tinacms/tinacms?style=social&color=white)](https://github.com/tinacms/tinacms/stargazers) | **Apache-2.0** | Next.js / React / GraphQL / Git | Git-backed headless visual CMS offering real-time contextual page editing directly on your live frontend components with markdown/MDX and JSON data persistence. |
+| **[Puck](https://github.com/puckeditor/puck)** | [![Stars](https://img.shields.io/github/stars/puckeditor/puck?style=social&color=white)](https://github.com/puckeditor/puck/stargazers) | **MIT** | React / TypeScript | The self-hosted visual editor for React. Transforms existing React design components into a clean drag-and-drop visual interface with integrated undo/redo, responsive viewports, and clean JSON payloads. |
+| **[WordPress Gutenberg](https://github.com/WordPress/gutenberg)** | [![Stars](https://img.shields.io/github/stars/WordPress/gutenberg?style=social&color=white)](https://github.com/WordPress/gutenberg/stargazers) | **GPL-2.0** | JavaScript / React / PHP | The official block-based editor for the WordPress web ecosystem, enabling full-site editing (FSE), block styling patterns, and modular content authoring. |
+| **[Webstudio](https://github.com/webstudio-is/webstudio)** | [![Stars](https://img.shields.io/github/stars/webstudio-is/webstudio?style=social&color=white)](https://github.com/webstudio-is/webstudio/stargazers) | **AGPL-3.0** | Remix / Radix / CSS Variables | The premier open-source Webflow alternative. Connects visually to any headless CMS (Sanity, Strapi, Contentful), supports 100% of standard CSS properties, and exports clean static code to edge networks. |
+| **[Instatic](https://github.com/CoreBunch/Instatic)** | [![Stars](https://img.shields.io/github/stars/CoreBunch/Instatic)](https://github.com/CoreBunch/Instatic/stargazers) | **GPL-3.0** | Bun / SQLite / QuickJS-WASM | Agentic self-hosted visual CMS developed by the team behind Motion.page. Features in-canvas WYSIWYG editing, baked-to-disk static compilation, and sandboxed WASM plugins. |
+| **[Builder.io SDK](https://github.com/BuilderIO/builder)** | [![Stars](https://img.shields.io/github/stars/BuilderIO/builder?style=social&color=white)](https://github.com/BuilderIO/builder/stargazers) | **MIT** | React / Vue / Angular / Svelte | Drag-and-drop headless visual CMS engine designed to connect visual page building with custom modern web enterprise codebases and microfrontends. |
+| **[Craft.js](https://github.com/prevwong/craft.js)** | [![Stars](https://img.shields.io/github/stars/prevwong/craft.js?style=social&color=white)](https://github.com/prevwong/craft.js/stargazers) | **MIT** | React / TypeScript | Modular React framework for building powerful drag-and-drop page builders. Manages editable state trees, drag events, and canvas serialization while leaving UI rendering entirely under your control. |
+| **[Elementor Core](https://github.com/elementor/elementor)** | [![Stars](https://img.shields.io/github/stars/elementor/elementor?style=social&color=white)](https://github.com/elementor/elementor/stargazers) | **GPL-3.0** | PHP / JavaScript / Marionette | The open-source core engine behind the Elementor page builder for WordPress. Provides live visual design interfaces, responsive controls, and modular widget rendering. |
+| **[Microweber](https://github.com/microweber/microweber)** | [![Stars](https://img.shields.io/github/stars/microweber/microweber?style=social&color=white)](https://github.com/microweber/microweber/stargazers) | **MIT** | PHP / Laravel / Live Edit | An open-source, drag-and-drop website builder and CMS with built-in e-commerce shopping cart, multi-language support, and front-end live inline text editing. |
+| **[Silex](https://github.com/silexlabs/Silex)** | [![Stars](https://img.shields.io/github/stars/silexlabs/Silex?style=social&color=white)](https://github.com/silexlabs/Silex/stargazers) | **AGPL-3.0** | Node.js / GrapesJS / 11ty | A non-profit backed, privacy-first, free alternative to Webflow. Features static site export, GraphQL CMS integration, zero tracking, Docker self-hosting, and an offline desktop application with MCP AI design support. |
+| **[Chai Builder](https://github.com/chaibuilder/core)** | [![Stars](https://img.shields.io/github/stars/chaibuilder/core?style=social&color=white)](https://github.com/chaibuilder/core/stargazers) | **MIT** | Next.js / Tailwind CSS | Open-source visual website builder studio for Next.js and Tailwind CSS with AI prompt page generation, custom React component registration, and HTML export. |
+| **[Ycode](https://github.com/ycode/ycode)** | [![Stars](https://img.shields.io/github/stars/ycode/ycode?style=social&color=white)](https://github.com/ycode/ycode/stargazers) | **AGPL-3.0** | Laravel / Vue.js / Tailwind | Open-source visual web development platform and CMS featuring relational databases, responsive canvas layout controls, and authentication layer support. |
+| **[OpenPage](https://github.com/buildingopen/openpage)** | [![Stars](https://img.shields.io/github/stars/buildingopen/openpage?style=social&color=white)](https://github.com/buildingopen/openpage/stargazers) | **MIT** | React 19 / TypeScript / Tailwind | Modern visual page builder with JSON-first architecture, Gemini AI site generation, and standalone static HTML export. Positioned as a self-hosted alternative to Framer, Lovable, and v0. |
+
+---
+
+### 🧩 Additional Modular Page Builders & Plugins
+
+- 🎨 **[Marfilo](https://alternativeto.net/software/marfilo/about/)** — Free visual drag-and-drop page builder for WordPress (GPL-2.0). Publishes plain lightweight HTML with zero unnecessary script bloat across 95 modular components.
+- ⚡ **[PixeBuilder](https://wp-packages.org/packages/wp-plugin/pixebuilder)** — Free in-place visual drag-and-drop page builder plugin for WordPress focused on sub-second rendering speeds.
+- 🌐 **[Nitropage](https://www.npmjs.com/package/create-nitropage)** — Self-hostable SolidJS visual builder with Hot Module Replacement (HMR) designed for lightweight landing pages.
+- 🛍️ **[Autonnel](https://buildhop.io/discover/autonnel)** — AI-native funnel builder for e-commerce (Apache-2.0); visually crafts dynamic landing, checkout, and upsell funnels connected to open or custom checkouts.
+
+---
+
+## 🎯 Selection Guide & Architecture Tradeoffs
+
+```
+                       ┌──────────────────────────────┐
+                       │ What are you building?      │
+                       └──────────────┬───────────────┘
+                                      │
+              ┌───────────────────────┴───────────────────────┐
+              ▼                                               ▼
+   ┌──────────────────────┐                       ┌──────────────────────┐
+   │ Fully Hosted SaaS    │                       │ Self-Hosted / Code   │
+   └──────────┬───────────┘                       └──────────┬───────────┘
+              │                                              │
+    ┌─────────┴─────────┐                         ┌──────────┴──────────┐
+    ▼                   ▼                         ▼                     ▼
+┌───────────────┐ ┌───────────────┐         ┌───────────────┐ ┌───────────────────┐
+│ E-Commerce    │ │ Marketing/UI  │         │ React/Next.js │ │ Standalone/Design │
+├───────────────┤ ├───────────────┤         ├───────────────┤ ├───────────────────┤
+│ • Shopify     │ │ • Webflow     │         │ • Puck        │ │ • Webstudio       │
+│ • PageFly     │ │ • Framer      │         │ • TinaCMS     │ │ • Silex           │
+│ • GemPages    │ │ • Squarespace │         │ • ChaiBuilder │ │ • GrapesJS        │
+│ • Shogun      │ │ • Wix         │         │ • Builder.io  │ │ • OpenPage        │
+└───────────────┘ └───────────────┘         └───────────────┘ └───────────────────┘
+```
+
+1. **Enterprise E-Commerce Operations:** If you are building a commercial storefront with transactional requirements (payment gateways, dynamic inventory, tax compliance), **Shopify + PageFly / GemPages** provides the highest reliability and conversion capabilities.
+2. **High-Fidelity Design Portfolios & Agency Client Work:** **Webflow** and **Framer** represent the gold standard for micro-animations, typography control, and CSS styling without requiring manual code authoring.
+3. **Developer-First & Embedded CMS:** If your organization already operates a custom Next.js or React codebase and requires marketing teams to edit layout components safely, adopt **Puck** or **TinaCMS**.
+4. **Independent Non-Profit & Self-Hosted Freedom:** For zero subscription fees, complete static file ownership, and complete data privacy, self-host **Webstudio** or **Silex**.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions, tool submissions, and feature corrections! 
+
+1. **Fork the Repository** 🍴
+2. **Create a Feature Branch** (`git checkout -b feature/awesome-addition`)
+3. **Add or Update Entries**:
+   - Provide the tool name, valid canonical URL, and open-source GitHub link (if applicable).
+   - Ensure SaaS additions include verified pricing tiers, exact trial durations/limits, and company scale metrics.
+   - For open-source projects, specify the license and verify that it provides visual/drag-and-drop functionality.
+4. **Run Format Check & Commit** (`git commit -m "Add <Tool-Name> to No-Code Website Builder ecosystem"`)
+5. **Open a Pull Request** 🚀
+
+---
+
+## 📄 Disclaimer & Security Considerations
+
+- This repository is a **community-curated index** provided for educational, architectural, and evaluation purposes. Inclusion does not represent an official endorsement.
+- **Security in Visual Builders:** Visual builders handling user-submitted forms or embedded scripts must implement sanitization against Cross-Site Scripting (XSS), maintain Strict Content Security Policies (CSP), and isolate custom iframe environments.
+- **Licenses:** Always review software licenses prior to deployment in commercial projects (e.g., AGPL-3.0 for Webstudio/Silex requires source disclosure when modifying the platform, whereas MIT/Apache-2.0 permits closed distribution).
+
+---
+
+<p align="center">
+  <sub>Maintained with ❤️ by the open-source community. If you found this list helpful, give it a ⭐️ on GitHub!</sub>
+</p>
